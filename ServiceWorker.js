@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-URPMB-0.1.0";
 const contentToCache = [
     "Build/URPMB.loader.js",
-    "Build/URPMB.framework.js.gz",
-    "Build/URPMB.data.gz",
-    "Build/URPMB.wasm.gz",
+    "Build/URPMB.framework.js.unityweb",
+    "Build/URPMB.data.unityweb",
+    "Build/URPMB.wasm.unityweb",
     "TemplateData/style.css"
 
 ];

@@ -59,9 +59,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/URPMB.loader.js";
       var config = {
-        dataUrl: buildUrl + "/URPMB.data.gz",
-        frameworkUrl: buildUrl + "/URPMB.framework.js.gz",
-        codeUrl: buildUrl + "/URPMB.wasm.gz",
+        dataUrl: buildUrl + "/URPMB.data.unityweb",
+        frameworkUrl: buildUrl + "/URPMB.framework.js.unityweb",
+        codeUrl: buildUrl + "/URPMB.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "URPMB",
@@ -89,7 +89,6 @@
       var script = document.createElement("script");
       script.src = loaderUrl;
       script.onload = () => {
-      window.devicePixelRatio =1;
         createUnityInstance(canvas, config, (progress) => {
           progressBarFull.style.width = 100 * progress + "%";
         }).then((unityInstance) => {
