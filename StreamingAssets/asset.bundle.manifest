@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 2849242787
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7697cde2952e73cce8e2318ea39cc296
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 306f2f46a73d60fe7a945900b75eac7e
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7697cde2952e73cce8e2318ea39cc296
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: 8c24a0302dd9d5e4bbc83e7f7fed2fbd, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: AModel
+Assets:
+- Assets/ScriptableObjects/ModelAsset.asset
+Dependencies: []
